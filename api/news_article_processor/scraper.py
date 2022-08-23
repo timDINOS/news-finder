@@ -15,7 +15,11 @@ def parse_article(article):
 
     news_article = {}
 
-    news_article["source"] = article_obj.brand
+    news_article["title"] = article["title"]
+
+    news_article["thumbnail"] = article["thumbnail"]
+
+    news_article["source"] = article["source"]
 
     news_article["authors"] = article_obj.authors
 
