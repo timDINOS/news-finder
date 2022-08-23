@@ -1,19 +1,17 @@
-
 <template>
-    <div class="login-button">
+    <div class="sign-up-button">
         <a href="">
             <button>
-                Login
+                Sign Up
             </button>
         </a>
     </div>
 </template>
 
 
-
 <script>
     export default {
-        name: "LoginButton",
+        name: "SignUpButton",
 
     }
 </script>

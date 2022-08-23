@@ -4,10 +4,12 @@
 
 <script>
     import LoginButton from './LoginButton'
+    import SignUpButton from './SignUpButton'
     export default {
         name: "Header",
         components: {
-            LoginButton
+            LoginButton,
+            SignUpButton
         }
     }
 </script>
