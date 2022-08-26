@@ -12,6 +12,13 @@
 <script>
     export default {
         name: "SignUpButton",
-
+        components: {}
     }
 </script>
+
+
+<style>
+    .sign-up-button {
+        color: gray;
+    }
+</style>

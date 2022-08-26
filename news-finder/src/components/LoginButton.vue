@@ -14,6 +14,13 @@
 <script>
     export default {
         name: "LoginButton",
-
+        components: {}
     }
 </script>
+
+
+<style>
+    .login-button {
+        color: gray;
+    }
+</style>
