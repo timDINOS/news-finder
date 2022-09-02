@@ -30,6 +30,11 @@
                 password: ""
             };
         },
+        created: {
+            logout() {
+                localStorage.removeItem('user');
+            }
+        },
         methods: {
             async login(e) {
                 e.preventDefault();
@@ -42,6 +47,8 @@
                         username: this.username, 
                         password: this.password
                     }),
+                }).then((response) => {
+                    localStorage.setItem('user', JSON.stringify(response.data.username));
                 });
 
                 this.$router.push("/");
