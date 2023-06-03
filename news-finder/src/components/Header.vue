@@ -3,6 +3,7 @@
         <h1>News Finder</h1>
         <LoginButton />
         <SignUpButton />
+        <News />
     </div>
 </template>
 
